@@ -23,7 +23,6 @@ Vagrant.configure(2) do |config|
     sudo pip install boto
     sudo pip install nltk==3.2.1
     sudo pip install Unirest==1.1.7
-    #wget https://docs.google.com/uc?export=download&confirm=tVVS&id=0B7XkCwpI5KDYNlNUTTlSS21pQmM
   SHELL
 end
 
