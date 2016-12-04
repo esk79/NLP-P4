@@ -9,3 +9,5 @@ How to run code:
 6. $ vagrant ssh (once 'vagrant up' has completed)
 7. $ cd qa-system (these commands on now form with the guest)
 8. $ python model.py
+
+NOTE: You will also need to but the document files into the qa-system folder (again, putting it in the cost folder will sync with the guest)

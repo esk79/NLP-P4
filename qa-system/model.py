@@ -192,4 +192,4 @@ def parseAllQuestions(question_location):
       output_file.write(str(question_id)+' '+str(find_relevant_doc_id(answer[1], file_start_ends))+' '+str(answer[0]) +'\n')
 
 # starts calling all questions
-parseAllQuestions(SMALL_QUESTION_FILE)
+parseAllQuestions(QUESTION_FILE)
