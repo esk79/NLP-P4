@@ -8,4 +8,4 @@ How to run code:
 5. Place the GoogleNews-vectors-negative300.bin into the qa-system folder on the host (the folders are synced so this will appear on the guest as well. We are also assuming you already have this downloaded on your host. Otherwise https://docs.google.com/uc?id=0B7XkCwpI5KDYNlNUTTlSS21pQmM&export=download)
 6. $ vagrant ssh (once 'vagrant up' has completed)
 7. $ cd qa-system (these commands on now form with the guest)
-8. $ python Part2.py
+8. $ python model.py
